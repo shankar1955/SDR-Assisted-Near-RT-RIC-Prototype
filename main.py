@@ -1,18 +1,3 @@
-"""
-Main Entry Point
-O-RAN Near-RT RIC Prototype — Shankar M, Chennai Institute of Technology
-
-Runs the full prototype stack:
-  SDR HAL → E2 Node (simulated gNB) → Near-RT RIC → xApp → RC Control
-
-Usage:
-  python main.py                  # default 500 ticks
-  python main.py --ticks 200      # custom tick count
-  python main.py --mode hardware  # ZCU111 hardware (not yet implemented)
-
-Status: Simulated end-to-end. Hardware integration in progress.
-"""
-
 import argparse
 import logging
 import os
