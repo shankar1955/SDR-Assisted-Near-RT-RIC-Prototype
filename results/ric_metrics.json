@@ -1,0 +1,816 @@
+{
+  "loop_latency": {
+    "mean_ms": 0.51,
+    "max_ms": 1.263,
+    "pct_under_10ms": 100.0
+  },
+  "xapp_inference": {
+    "count": 100,
+    "mean_ms": 0.276,
+    "max_ms": 0.995,
+    "min_ms": 0.193,
+    "pct_under_10ms": 100.0
+  },
+  "tick_log": [
+    {
+      "tick": 0,
+      "loop_ms": 1.263,
+      "infer_ms": 0.995,
+      "avg_cqi": 6.2,
+      "avg_queue": 24.3,
+      "total_tp_mbps": 0.0
+    },
+    {
+      "tick": 1,
+      "loop_ms": 0.573,
+      "infer_ms": 0.297,
+      "avg_cqi": 6.3,
+      "avg_queue": 15.0,
+      "total_tp_mbps": 74.1
+    },
+    {
+      "tick": 2,
+      "loop_ms": 0.507,
+      "infer_ms": 0.306,
+      "avg_cqi": 6.1,
+      "avg_queue": 8.0,
+      "total_tp_mbps": 71.475
+    },
+    {
+      "tick": 3,
+      "loop_ms": 0.487,
+      "infer_ms": 0.286,
+      "avg_cqi": 6.2,
+      "avg_queue": 5.5,
+      "total_tp_mbps": 73.575
+    },
+    {
+      "tick": 4,
+      "loop_ms": 0.547,
+      "infer_ms": 0.289,
+      "avg_cqi": 6.4,
+      "avg_queue": 4.2,
+      "total_tp_mbps": 75.675
+    },
+    {
+      "tick": 5,
+      "loop_ms": 0.494,
+      "infer_ms": 0.256,
+      "avg_cqi": 6.2,
+      "avg_queue": 4.1,
+      "total_tp_mbps": 73.275
+    },
+    {
+      "tick": 6,
+      "loop_ms": 0.483,
+      "infer_ms": 0.247,
+      "avg_cqi": 5.9,
+      "avg_queue": 4.1,
+      "total_tp_mbps": 70.2
+    },
+    {
+      "tick": 7,
+      "loop_ms": 0.442,
+      "infer_ms": 0.231,
+      "avg_cqi": 5.8,
+      "avg_queue": 3.9,
+      "total_tp_mbps": 68.85
+    },
+    {
+      "tick": 8,
+      "loop_ms": 0.442,
+      "infer_ms": 0.23,
+      "avg_cqi": 6.0,
+      "avg_queue": 3.9,
+      "total_tp_mbps": 70.95
+    },
+    {
+      "tick": 9,
+      "loop_ms": 0.439,
+      "infer_ms": 0.233,
+      "avg_cqi": 6.0,
+      "avg_queue": 4.0,
+      "total_tp_mbps": 70.725
+    },
+    {
+      "tick": 10,
+      "loop_ms": 0.429,
+      "infer_ms": 0.238,
+      "avg_cqi": 6.1,
+      "avg_queue": 3.7,
+      "total_tp_mbps": 71.925
+    },
+    {
+      "tick": 11,
+      "loop_ms": 0.428,
+      "infer_ms": 0.233,
+      "avg_cqi": 5.8,
+      "avg_queue": 3.5,
+      "total_tp_mbps": 68.7
+    },
+    {
+      "tick": 12,
+      "loop_ms": 0.37,
+      "infer_ms": 0.193,
+      "avg_cqi": 5.9,
+      "avg_queue": 3.5,
+      "total_tp_mbps": 69.525
+    },
+    {
+      "tick": 13,
+      "loop_ms": 0.817,
+      "infer_ms": 0.447,
+      "avg_cqi": 6.0,
+      "avg_queue": 3.4,
+      "total_tp_mbps": 70.725
+    },
+    {
+      "tick": 14,
+      "loop_ms": 0.549,
+      "infer_ms": 0.301,
+      "avg_cqi": 6.2,
+      "avg_queue": 3.3,
+      "total_tp_mbps": 72.6
+    },
+    {
+      "tick": 15,
+      "loop_ms": 0.473,
+      "infer_ms": 0.278,
+      "avg_cqi": 6.0,
+      "avg_queue": 3.7,
+      "total_tp_mbps": 70.5
+    },
+    {
+      "tick": 16,
+      "loop_ms": 0.634,
+      "infer_ms": 0.322,
+      "avg_cqi": 6.0,
+      "avg_queue": 4.0,
+      "total_tp_mbps": 70.875
+    },
+    {
+      "tick": 17,
+      "loop_ms": 0.596,
+      "infer_ms": 0.309,
+      "avg_cqi": 6.4,
+      "avg_queue": 3.8,
+      "total_tp_mbps": 75.0
+    },
+    {
+      "tick": 18,
+      "loop_ms": 0.538,
+      "infer_ms": 0.291,
+      "avg_cqi": 6.1,
+      "avg_queue": 3.3,
+      "total_tp_mbps": 71.025
+    },
+    {
+      "tick": 19,
+      "loop_ms": 0.588,
+      "infer_ms": 0.32,
+      "avg_cqi": 6.4,
+      "avg_queue": 3.5,
+      "total_tp_mbps": 74.1
+    },
+    {
+      "tick": 20,
+      "loop_ms": 0.546,
+      "infer_ms": 0.295,
+      "avg_cqi": 6.5,
+      "avg_queue": 3.2,
+      "total_tp_mbps": 75.675
+    },
+    {
+      "tick": 21,
+      "loop_ms": 0.612,
+      "infer_ms": 0.298,
+      "avg_cqi": 6.8,
+      "avg_queue": 3.0,
+      "total_tp_mbps": 79.125
+    },
+    {
+      "tick": 22,
+      "loop_ms": 0.471,
+      "infer_ms": 0.241,
+      "avg_cqi": 6.8,
+      "avg_queue": 2.8,
+      "total_tp_mbps": 79.65
+    },
+    {
+      "tick": 23,
+      "loop_ms": 0.471,
+      "infer_ms": 0.225,
+      "avg_cqi": 6.6,
+      "avg_queue": 2.3,
+      "total_tp_mbps": 76.8
+    },
+    {
+      "tick": 24,
+      "loop_ms": 0.669,
+      "infer_ms": 0.364,
+      "avg_cqi": 6.6,
+      "avg_queue": 2.4,
+      "total_tp_mbps": 76.425
+    },
+    {
+      "tick": 25,
+      "loop_ms": 0.68,
+      "infer_ms": 0.405,
+      "avg_cqi": 6.3,
+      "avg_queue": 2.1,
+      "total_tp_mbps": 73.5
+    },
+    {
+      "tick": 26,
+      "loop_ms": 0.562,
+      "infer_ms": 0.298,
+      "avg_cqi": 6.6,
+      "avg_queue": 2.3,
+      "total_tp_mbps": 76.5
+    },
+    {
+      "tick": 27,
+      "loop_ms": 0.594,
+      "infer_ms": 0.338,
+      "avg_cqi": 6.4,
+      "avg_queue": 1.9,
+      "total_tp_mbps": 73.65
+    },
+    {
+      "tick": 28,
+      "loop_ms": 0.613,
+      "infer_ms": 0.36,
+      "avg_cqi": 6.2,
+      "avg_queue": 1.6,
+      "total_tp_mbps": 70.8
+    },
+    {
+      "tick": 29,
+      "loop_ms": 0.453,
+      "infer_ms": 0.254,
+      "avg_cqi": 6.2,
+      "avg_queue": 1.4,
+      "total_tp_mbps": 70.05
+    },
+    {
+      "tick": 30,
+      "loop_ms": 0.612,
+      "infer_ms": 0.301,
+      "avg_cqi": 6.2,
+      "avg_queue": 1.3,
+      "total_tp_mbps": 70.05
+    },
+    {
+      "tick": 31,
+      "loop_ms": 0.616,
+      "infer_ms": 0.319,
+      "avg_cqi": 6.4,
+      "avg_queue": 1.4,
+      "total_tp_mbps": 72.45
+    },
+    {
+      "tick": 32,
+      "loop_ms": 0.602,
+      "infer_ms": 0.314,
+      "avg_cqi": 6.5,
+      "avg_queue": 1.4,
+      "total_tp_mbps": 73.725
+    },
+    {
+      "tick": 33,
+      "loop_ms": 0.626,
+      "infer_ms": 0.374,
+      "avg_cqi": 6.6,
+      "avg_queue": 1.3,
+      "total_tp_mbps": 74.625
+    },
+    {
+      "tick": 34,
+      "loop_ms": 0.608,
+      "infer_ms": 0.326,
+      "avg_cqi": 6.8,
+      "avg_queue": 1.5,
+      "total_tp_mbps": 76.8
+    },
+    {
+      "tick": 35,
+      "loop_ms": 0.585,
+      "infer_ms": 0.306,
+      "avg_cqi": 6.7,
+      "avg_queue": 1.6,
+      "total_tp_mbps": 75.375
+    },
+    {
+      "tick": 36,
+      "loop_ms": 0.64,
+      "infer_ms": 0.371,
+      "avg_cqi": 6.8,
+      "avg_queue": 1.7,
+      "total_tp_mbps": 76.8
+    },
+    {
+      "tick": 37,
+      "loop_ms": 0.67,
+      "infer_ms": 0.347,
+      "avg_cqi": 6.7,
+      "avg_queue": 1.7,
+      "total_tp_mbps": 75.75
+    },
+    {
+      "tick": 38,
+      "loop_ms": 0.669,
+      "infer_ms": 0.366,
+      "avg_cqi": 7.1,
+      "avg_queue": 1.7,
+      "total_tp_mbps": 80.7
+    },
+    {
+      "tick": 39,
+      "loop_ms": 0.509,
+      "infer_ms": 0.26,
+      "avg_cqi": 6.8,
+      "avg_queue": 1.9,
+      "total_tp_mbps": 77.025
+    },
+    {
+      "tick": 40,
+      "loop_ms": 0.54,
+      "infer_ms": 0.273,
+      "avg_cqi": 6.7,
+      "avg_queue": 1.9,
+      "total_tp_mbps": 75.225
+    },
+    {
+      "tick": 41,
+      "loop_ms": 0.495,
+      "infer_ms": 0.26,
+      "avg_cqi": 7.1,
+      "avg_queue": 1.9,
+      "total_tp_mbps": 79.95
+    },
+    {
+      "tick": 42,
+      "loop_ms": 0.465,
+      "infer_ms": 0.246,
+      "avg_cqi": 6.7,
+      "avg_queue": 2.0,
+      "total_tp_mbps": 75.225
+    },
+    {
+      "tick": 43,
+      "loop_ms": 0.429,
+      "infer_ms": 0.231,
+      "avg_cqi": 6.9,
+      "avg_queue": 1.9,
+      "total_tp_mbps": 77.7
+    },
+    {
+      "tick": 44,
+      "loop_ms": 0.419,
+      "infer_ms": 0.226,
+      "avg_cqi": 7.0,
+      "avg_queue": 1.8,
+      "total_tp_mbps": 78.6
+    },
+    {
+      "tick": 45,
+      "loop_ms": 0.437,
+      "infer_ms": 0.229,
+      "avg_cqi": 7.0,
+      "avg_queue": 1.8,
+      "total_tp_mbps": 78.225
+    },
+    {
+      "tick": 46,
+      "loop_ms": 0.46,
+      "infer_ms": 0.256,
+      "avg_cqi": 7.0,
+      "avg_queue": 2.0,
+      "total_tp_mbps": 78.3
+    },
+    {
+      "tick": 47,
+      "loop_ms": 0.476,
+      "infer_ms": 0.275,
+      "avg_cqi": 7.2,
+      "avg_queue": 1.8,
+      "total_tp_mbps": 81.075
+    },
+    {
+      "tick": 48,
+      "loop_ms": 0.439,
+      "infer_ms": 0.247,
+      "avg_cqi": 7.3,
+      "avg_queue": 1.9,
+      "total_tp_mbps": 82.275
+    },
+    {
+      "tick": 49,
+      "loop_ms": 0.563,
+      "infer_ms": 0.331,
+      "avg_cqi": 7.3,
+      "avg_queue": 1.8,
+      "total_tp_mbps": 82.2
+    },
+    {
+      "tick": 50,
+      "loop_ms": 0.529,
+      "infer_ms": 0.269,
+      "avg_cqi": 7.4,
+      "avg_queue": 1.7,
+      "total_tp_mbps": 83.25
+    },
+    {
+      "tick": 51,
+      "loop_ms": 0.458,
+      "infer_ms": 0.237,
+      "avg_cqi": 7.3,
+      "avg_queue": 1.8,
+      "total_tp_mbps": 82.35
+    },
+    {
+      "tick": 52,
+      "loop_ms": 0.432,
+      "infer_ms": 0.226,
+      "avg_cqi": 7.5,
+      "avg_queue": 2.4,
+      "total_tp_mbps": 85.2
+    },
+    {
+      "tick": 53,
+      "loop_ms": 0.422,
+      "infer_ms": 0.221,
+      "avg_cqi": 7.3,
+      "avg_queue": 2.2,
+      "total_tp_mbps": 83.325
+    },
+    {
+      "tick": 54,
+      "loop_ms": 0.407,
+      "infer_ms": 0.219,
+      "avg_cqi": 7.1,
+      "avg_queue": 2.5,
+      "total_tp_mbps": 81.3
+    },
+    {
+      "tick": 55,
+      "loop_ms": 0.404,
+      "infer_ms": 0.212,
+      "avg_cqi": 7.2,
+      "avg_queue": 2.4,
+      "total_tp_mbps": 82.275
+    },
+    {
+      "tick": 56,
+      "loop_ms": 0.457,
+      "infer_ms": 0.254,
+      "avg_cqi": 7.0,
+      "avg_queue": 2.7,
+      "total_tp_mbps": 79.875
+    },
+    {
+      "tick": 57,
+      "loop_ms": 0.598,
+      "infer_ms": 0.34,
+      "avg_cqi": 7.1,
+      "avg_queue": 2.8,
+      "total_tp_mbps": 81.225
+    },
+    {
+      "tick": 58,
+      "loop_ms": 0.434,
+      "infer_ms": 0.218,
+      "avg_cqi": 7.1,
+      "avg_queue": 2.7,
+      "total_tp_mbps": 81.375
+    },
+    {
+      "tick": 59,
+      "loop_ms": 0.467,
+      "infer_ms": 0.277,
+      "avg_cqi": 7.1,
+      "avg_queue": 2.8,
+      "total_tp_mbps": 81.075
+    },
+    {
+      "tick": 60,
+      "loop_ms": 0.444,
+      "infer_ms": 0.245,
+      "avg_cqi": 7.1,
+      "avg_queue": 3.1,
+      "total_tp_mbps": 81.375
+    },
+    {
+      "tick": 61,
+      "loop_ms": 0.474,
+      "infer_ms": 0.234,
+      "avg_cqi": 7.1,
+      "avg_queue": 3.1,
+      "total_tp_mbps": 81.6
+    },
+    {
+      "tick": 62,
+      "loop_ms": 0.464,
+      "infer_ms": 0.246,
+      "avg_cqi": 7.1,
+      "avg_queue": 3.4,
+      "total_tp_mbps": 81.15
+    },
+    {
+      "tick": 63,
+      "loop_ms": 0.415,
+      "infer_ms": 0.221,
+      "avg_cqi": 7.3,
+      "avg_queue": 3.4,
+      "total_tp_mbps": 83.775
+    },
+    {
+      "tick": 64,
+      "loop_ms": 0.457,
+      "infer_ms": 0.235,
+      "avg_cqi": 7.4,
+      "avg_queue": 3.0,
+      "total_tp_mbps": 85.275
+    },
+    {
+      "tick": 65,
+      "loop_ms": 0.421,
+      "infer_ms": 0.227,
+      "avg_cqi": 7.4,
+      "avg_queue": 3.1,
+      "total_tp_mbps": 85.8
+    },
+    {
+      "tick": 66,
+      "loop_ms": 0.428,
+      "infer_ms": 0.228,
+      "avg_cqi": 7.5,
+      "avg_queue": 3.2,
+      "total_tp_mbps": 86.925
+    },
+    {
+      "tick": 67,
+      "loop_ms": 0.433,
+      "infer_ms": 0.234,
+      "avg_cqi": 7.4,
+      "avg_queue": 3.2,
+      "total_tp_mbps": 85.425
+    },
+    {
+      "tick": 68,
+      "loop_ms": 0.378,
+      "infer_ms": 0.196,
+      "avg_cqi": 7.4,
+      "avg_queue": 3.4,
+      "total_tp_mbps": 85.5
+    },
+    {
+      "tick": 69,
+      "loop_ms": 0.522,
+      "infer_ms": 0.297,
+      "avg_cqi": 7.3,
+      "avg_queue": 2.5,
+      "total_tp_mbps": 84.75
+    },
+    {
+      "tick": 70,
+      "loop_ms": 0.477,
+      "infer_ms": 0.269,
+      "avg_cqi": 7.5,
+      "avg_queue": 1.9,
+      "total_tp_mbps": 86.775
+    },
+    {
+      "tick": 71,
+      "loop_ms": 0.462,
+      "infer_ms": 0.247,
+      "avg_cqi": 7.1,
+      "avg_queue": 1.9,
+      "total_tp_mbps": 82.8
+    },
+    {
+      "tick": 72,
+      "loop_ms": 0.46,
+      "infer_ms": 0.234,
+      "avg_cqi": 6.9,
+      "avg_queue": 1.7,
+      "total_tp_mbps": 80.1
+    },
+    {
+      "tick": 73,
+      "loop_ms": 0.47,
+      "infer_ms": 0.237,
+      "avg_cqi": 7.0,
+      "avg_queue": 1.7,
+      "total_tp_mbps": 81.525
+    },
+    {
+      "tick": 74,
+      "loop_ms": 0.448,
+      "infer_ms": 0.237,
+      "avg_cqi": 6.9,
+      "avg_queue": 1.7,
+      "total_tp_mbps": 81.075
+    },
+    {
+      "tick": 75,
+      "loop_ms": 0.447,
+      "infer_ms": 0.233,
+      "avg_cqi": 6.8,
+      "avg_queue": 1.6,
+      "total_tp_mbps": 79.95
+    },
+    {
+      "tick": 76,
+      "loop_ms": 0.493,
+      "infer_ms": 0.262,
+      "avg_cqi": 6.8,
+      "avg_queue": 1.4,
+      "total_tp_mbps": 79.725
+    },
+    {
+      "tick": 77,
+      "loop_ms": 0.443,
+      "infer_ms": 0.237,
+      "avg_cqi": 6.7,
+      "avg_queue": 1.4,
+      "total_tp_mbps": 78.975
+    },
+    {
+      "tick": 78,
+      "loop_ms": 0.447,
+      "infer_ms": 0.226,
+      "avg_cqi": 6.4,
+      "avg_queue": 1.1,
+      "total_tp_mbps": 75.3
+    },
+    {
+      "tick": 79,
+      "loop_ms": 0.422,
+      "infer_ms": 0.226,
+      "avg_cqi": 6.4,
+      "avg_queue": 1.1,
+      "total_tp_mbps": 75.675
+    },
+    {
+      "tick": 80,
+      "loop_ms": 0.492,
+      "infer_ms": 0.294,
+      "avg_cqi": 6.0,
+      "avg_queue": 1.2,
+      "total_tp_mbps": 71.1
+    },
+    {
+      "tick": 81,
+      "loop_ms": 0.502,
+      "infer_ms": 0.286,
+      "avg_cqi": 6.1,
+      "avg_queue": 1.3,
+      "total_tp_mbps": 71.325
+    },
+    {
+      "tick": 82,
+      "loop_ms": 0.516,
+      "infer_ms": 0.245,
+      "avg_cqi": 6.2,
+      "avg_queue": 0.9,
+      "total_tp_mbps": 72.375
+    },
+    {
+      "tick": 83,
+      "loop_ms": 0.469,
+      "infer_ms": 0.237,
+      "avg_cqi": 6.4,
+      "avg_queue": 0.7,
+      "total_tp_mbps": 74.25
+    },
+    {
+      "tick": 84,
+      "loop_ms": 0.437,
+      "infer_ms": 0.225,
+      "avg_cqi": 6.4,
+      "avg_queue": 0.7,
+      "total_tp_mbps": 74.625
+    },
+    {
+      "tick": 85,
+      "loop_ms": 0.497,
+      "infer_ms": 0.259,
+      "avg_cqi": 6.0,
+      "avg_queue": 0.6,
+      "total_tp_mbps": 69.9
+    },
+    {
+      "tick": 86,
+      "loop_ms": 0.438,
+      "infer_ms": 0.235,
+      "avg_cqi": 6.0,
+      "avg_queue": 1.0,
+      "total_tp_mbps": 70.275
+    },
+    {
+      "tick": 87,
+      "loop_ms": 0.463,
+      "infer_ms": 0.247,
+      "avg_cqi": 5.8,
+      "avg_queue": 0.7,
+      "total_tp_mbps": 68.025
+    },
+    {
+      "tick": 88,
+      "loop_ms": 0.435,
+      "infer_ms": 0.231,
+      "avg_cqi": 5.8,
+      "avg_queue": 0.6,
+      "total_tp_mbps": 68.7
+    },
+    {
+      "tick": 89,
+      "loop_ms": 0.415,
+      "infer_ms": 0.218,
+      "avg_cqi": 5.7,
+      "avg_queue": 0.6,
+      "total_tp_mbps": 66.9
+    },
+    {
+      "tick": 90,
+      "loop_ms": 0.463,
+      "infer_ms": 0.226,
+      "avg_cqi": 6.0,
+      "avg_queue": 0.8,
+      "total_tp_mbps": 71.025
+    },
+    {
+      "tick": 91,
+      "loop_ms": 0.477,
+      "infer_ms": 0.272,
+      "avg_cqi": 6.3,
+      "avg_queue": 0.6,
+      "total_tp_mbps": 75.075
+    },
+    {
+      "tick": 92,
+      "loop_ms": 0.543,
+      "infer_ms": 0.318,
+      "avg_cqi": 6.2,
+      "avg_queue": 0.9,
+      "total_tp_mbps": 74.175
+    },
+    {
+      "tick": 93,
+      "loop_ms": 0.611,
+      "infer_ms": 0.298,
+      "avg_cqi": 6.0,
+      "avg_queue": 0.6,
+      "total_tp_mbps": 71.625
+    },
+    {
+      "tick": 94,
+      "loop_ms": 0.511,
+      "infer_ms": 0.256,
+      "avg_cqi": 6.1,
+      "avg_queue": 0.9,
+      "total_tp_mbps": 73.125
+    },
+    {
+      "tick": 95,
+      "loop_ms": 0.531,
+      "infer_ms": 0.258,
+      "avg_cqi": 6.1,
+      "avg_queue": 1.1,
+      "total_tp_mbps": 73.35
+    },
+    {
+      "tick": 96,
+      "loop_ms": 0.51,
+      "infer_ms": 0.271,
+      "avg_cqi": 6.0,
+      "avg_queue": 1.6,
+      "total_tp_mbps": 72.225
+    },
+    {
+      "tick": 97,
+      "loop_ms": 0.459,
+      "infer_ms": 0.244,
+      "avg_cqi": 5.8,
+      "avg_queue": 2.3,
+      "total_tp_mbps": 69.825
+    },
+    {
+      "tick": 98,
+      "loop_ms": 0.462,
+      "infer_ms": 0.245,
+      "avg_cqi": 5.6,
+      "avg_queue": 2.5,
+      "total_tp_mbps": 67.95
+    },
+    {
+      "tick": 99,
+      "loop_ms": 0.516,
+      "infer_ms": 0.301,
+      "avg_cqi": 5.8,
+      "avg_queue": 2.4,
+      "total_tp_mbps": 70.575
+    }
+  ]
+}
